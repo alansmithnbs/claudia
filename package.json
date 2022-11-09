@@ -1,11 +1,10 @@
 {
-  "name": "claudia",
-  "version": "5.14.1",
+  "name": "@nbs/claudia",
+  "version": "5.14.2",
   "description": "Deploy Node.js projects to AWS Lambda and API Gateway easily.",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/claudiajs/claudia.git"
+  "publishConfig": {
+    "registry": "https://tools.nimbus.thenbs.cloud/npm/"
   },
   "bin": {
     "claudia": "./bin/cmd.js"
@@ -51,13 +50,13 @@
   ],
   "dependencies": {
     "archiver": "^3.0.0",
-    "aws-sdk": "^2.1009.0",
+    "aws-sdk": "^2.1250.0",
     "fs-extra": "^6.0.1",
     "glob": "^7.1.2",
     "gunzip-maybe": "^1.4.0",
     "https-proxy-agent": "^5.0.0",
     "minimal-request-promise": "^1.1.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.7",
     "oh-no-i-insist": "^1.1.1",
     "sequential-promise-map": "^1.0.0",
     "tar-fs": "^2.1.1",
